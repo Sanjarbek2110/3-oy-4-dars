@@ -1,0 +1,137 @@
+body{
+    background-color: black;
+}
+
+.ota{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.bola{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 1346px){
+    body{
+        background-color: yellow;
+    }
+    
+    .ota{
+        gap: 20px;
+    }
+    
+    .bola{
+        width: 350px;
+        height: 250px;
+        background-color: blue;
+    }
+}
+
+@media (max-width: 1186px){
+    body{
+        background-color: red;
+    }
+    
+    .ota{
+        gap: 20px;
+    }
+    
+    .bola{
+        width: 280px;
+        height: 200px;
+        background-color: black;
+    }
+}
+
+@media (max-width: 976px){
+    body{
+        background-color: yellow;
+    }
+    
+    .ota{
+        gap: 20px 10px;
+    }
+    
+    .bola{
+        width: 250px;
+        height: 220px;
+        background-color: blue;
+    }
+}
+
+@media (max-width: 866px){
+    body{
+        background-color: blueviolet;
+    }
+    
+    .ota{
+        gap: 20px 10px;
+    }
+    
+    .bola{
+        width: 300px;
+        height: 200px;
+        background-color: darksalmon;
+    }
+}
+
+@media (max-width: 706px){
+    .bola{
+        width: 280px;
+        height: 200px;;
+    }
+}
+
+@media (max-width: 665px){
+    .bola{
+        width: 260px;
+        height: 180px;
+    }
+}
+
+@media (max-width: 625px){
+    .bola{
+        width: 240px;
+        height: 160px;
+    }
+}
+
+@media (max-width: 585px){
+    .bola{
+        width: 220px;
+        height: 140px;
+    }
+}
+
+@media (max-width: 545px){
+    .ota{
+        padding: 0 30px;
+    }
+
+    .bola{
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media (max-width: 400px){
+    .ota{
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 320px){
+    .ota{
+        padding: 0 10px;
+    }
+}
